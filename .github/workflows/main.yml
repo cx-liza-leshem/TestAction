@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Checkmarx One CLI Action
-        uses: checkmarx/ast-github-action@main #Github Action version
+        uses: checkmarx/ast-github-action@2.0.18 #Github Action version
         with:
           project_name: cx-liza-leshem/LowRisk
           cx_tenant: cx_seg
